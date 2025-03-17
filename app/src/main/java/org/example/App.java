@@ -9,6 +9,15 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        TriangleNumberCalculator tnc = new TriangleNumberCalculator();
+
+        System.out.println(tnc.value(5));
+        System.out.println(tnc.value(10));
+        System.out.println(tnc.add(10,5));
+        System.out.println(tnc.subtract(10,5));
+
+        System.out.println("The Max Int in Value: " + 14899);
+        System.out.println("The Max Int in Add: " + 12999);
+        System.out.println("The Max Int in Subtract: " + 12999);
     }
 }
